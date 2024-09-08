@@ -12,7 +12,7 @@ defmodule Identicon.Image do
       |> Enum.with_index
       |> Enum.each(fn {cell, x} ->
         if cell == 1 do
-          :egd.rectangle(canvas, {x * 50, y * 50}, {x * 50 + 50, y * 50 + 50}, fill)
+          :egd.filledRectangle(canvas, {x * 50, y * 50}, {x * 50 + 50, y * 50 + 50}, fill)
         end
       end)
     end)
