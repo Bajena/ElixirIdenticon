@@ -1,0 +1,3 @@
+%{
+  "egd": {:git, "https://github.com/KornelH/egd.git", "2e687b5029277f60db801a1695156810aaca345e", []},
+}
